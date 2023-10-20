@@ -110,10 +110,11 @@ footer {
 }
 
 .articles__item {
-    width: 600px;
-    height: 200px;
-    background: grey;
+    /* width: 60%; */
+    /* height: 200px; */
+    /* background: grey; */
     display: flex;
+    margin-bottom: 20px;
 }
 
 .autor {
