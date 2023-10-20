@@ -9,92 +9,152 @@
         <header class="header">
             <img class="logo" src="">
             <section class="navigation">
-                <a>Главная</a>
-                <a>Посты</a>
-                <a>Статьи</a>
-                <a>Теги</a>
-                <a>Темы</a>
-                <a>Контакты</a>
+                <a class="navigation__item" href="#0">Главная</a>
+                <a class="navigation__item" href="#0">Посты</a>
+                <a class="navigation__item" href="#0">Статьи</a>
+                <a class="navigation__item" href="#0">Теги</a>
+                <a class="navigation__item" href="#0">Темы</a>
+                <a class="navigation__item" href="#0">Контакты</a>
             </section>
 
             <h1>Блог о творчестве, спорте, и образе жизни</h1>
         </header>
 
-        <main>
-            <section class="trends">
-                <h3 class="trends-header">Сейчас в тренде</h3>
-                <!-- <section class="trends-container"> -->
-                    <article class="trend-article" style="background-image: url(../html_diploma_work/images/trend1.jpg);">
-                        <section class="trends-article-frame">
-                            <section class="tags">
-                                <a class="tag">Lifestyle</a>
-                                <a class="tag">Interior</a>
-                            </section>
-                            <a class="trend-title">Сейчас в тренде: сад на подоконнике</a>
-                        </section>
-                    </article>
-                    <article class="trend-article" style="background-image: url(../html_diploma_work/images/trend2.jpg);">
-                        <section class="trends-article-frame">
-                            <section class="tags">
-                                <a class="tag">Food</a>
-                            </section>
-                            <a class="trend-title">Сыры на красивых картинках из интернета: какие они на вкус?</a>
-                        </section>
-                    </article>
-                    <article class="trend-article" style="background-image: url(../html_diploma_work/images/trend3.jpg);">
-                        <section class="trends-article-frame">
-                            <section class="tags">
-                                <a class="tag">Lifestyle</a>
-                                <a class="tag">Travel</a>
-                            </section>
-                            <a class="trend-title">Собираемся в первый поход в горы</a>
-                        </section>
-                    </article>
-                    <article class="trend-article" style="background-image: url(../html_diploma_work/images/trend4.jpg);">
-                        <section class="trends-article-frame">
-                            <section class="tags">
-                                <a class="tag">Food</a>
-                                <a class="tag">Health</a>
-                            </section>
-                            <a class="trend-title">Сейчас в тренде: сколько витамина С в лимонах?</a>
-                        </section>
-                    </article>
-                <!-- </section> -->
-            </section>
-            <section class="content">
-                <section class="articles-container">
-                    <article class="main-article">10 мест, ради которых стоит проснуться на рассвете</article>
-                    <article class="main-article">Йога для начинающих в домашних условиях</article>
-                    <article class="main-article">Лучшие музывальные фестивали этого лета</article>
-                    <article class="main-article">Наукоемкий подход к кулинарии</article>
-                    <article class="main-article">Делаем модные принты на подушках для интерьера</article>
+        
+        <section class="trends">
+            
+            <div class="section-header">
+                <h2>Сейчас в тренде</h2>
+                <div class="line"></div>
+            </div>
+            <article class="trends__item" style="background-image: url(../html_diploma_work/images/trend1.jpg);">
+                <section class="trends__item__frame">
+                    <section class="tags">
+                        <a class="tag">Lifestyle</a>
+                        <a class="tag">Interior</a>
+                    </section>
+                    <a class="trend-title">Сейчас в тренде: сад на подоконнике</a>
                 </section>
-                <aside class="options">
-                    <h3>Новые посты</h3>
-                    <div class="aside-section">Йога для домашних</div>
-                    <div class="aside-section">Как мы превратили</div>
-                    <div class="aside-section">Кулинарный подход к науке</div>
-                    <div class="aside-section">Лучшие прически для распущенных волос</div>
-                </aside>
-            </section>
-            <section class="products">
-                <h3 class="products-header">Наши изделия</h3>
-                <section class="products-container">
-                    <article class="product">
-                        <h4>Подушка на диван</h4></article>
-                    <article class="product">
-                        <h4>Кукла зайчик</h4></article>
-                    <article class="product">
-                        <h4>Шестиугольная рамка</h4></article>
+            </article>
+            <article class="trends__item" style="background-image: url(../html_diploma_work/images/trend2.jpg);">
+                <section class="trends__item__frame">
+                    <section class="tags">
+                        <a class="tag">Food</a>
+                    </section>
+                    <a class="trend-title">Сыры на красивых картинках из интернета: какие они на вкус?</a>
                 </section>
+            </article>
+            <article class="trends__item" style="background-image: url(../html_diploma_work/images/trend3.jpg);">
+                <section class="trends__item__frame">
+                    <section class="tags">
+                        <a class="tag">Lifestyle</a>
+                        <a class="tag">Travel</a>
+                    </section>
+                    <a class="trend-title">Собираемся в первый поход в горы</a>
+                </section>
+            </article>
+            <article class="trends__item" style="background-image: url(../html_diploma_work/images/trend4.jpg);">
+                <section class="trends__item__frame">
+                    <section class="tags">
+                        <a class="tag">Food</a>
+                        <a class="tag">Health</a>
+                    </section>
+                    <a class="trend-title">Сейчас в тренде: сколько витамина С в лимонах?</a>
+                </section>
+            </article>
+        </section>
+
+
+        <main class="main__content">
+            <section class="articles">
+                <article class="articles__item">
+                    <img class="article_img" src="images/last-post1.jpg" alt="last-post1">
+                    <div class="article__content">
+                        <section class="tags">
+                            <a class="tag">Travel</a>
+                            <a class="tag">Health</a>
+                        </section>
+                        <a class="article__title" href="#0">10 мест, ради которых стоит проснуться на рассвете</a>
+                        <p>date <span class="autor">Неизвестный автор</span></p>
+                        <p>Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны в городе...
+                            Музеи еще закрыты. Что посмотреть?</p>
+                    </div>                   
+                </article>
+                <article class="articles__item">
+                    <img class="article_img" src="images/last-post2.jpg" alt="last-post2">
+                    <div class="article__content">
+                        <section class="tags">
+                            <a class="tag">Health</a>
+                            <a class="tag">Lifestyle</a>
+                        </section>
+                        <a class="article__title" href="#0">Йога для начинающих в домашних условиях</a>
+                        <p>date <span class="autor">Неизвестный автор</span></p>
+                        <p>Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, 
+                            что можно найти в шкафу.</p>
+                    </div>                   
+                </article>
+                <article class="articles__item">Лучшие музывальные фестивали этого лета</article>
+                <article class="articles__item">Наукоемкий подход к кулинарии</article>
+                <article class="articles__item">Делаем модные принты на подушках для интерьера</article>
             </section>
+            <aside class="options">
+                <section class="new-posts">
+                    <div class="section-header">
+                        <h3>Новые посты</h3>
+                        <div class="line"></div>
+                    </div>
+                    <div class="new-posts__item">Йога для домашних</div>
+                    <div class="new-posts__item">Как мы превратили</div>
+                    <div class="new-posts__item">Кулинарный подход к науке</div>
+                    <div class="new-posts__item">Лучшие прически для распущенных волос</div>
+                </section>
+                <section class="search">
+                    Поиск   
+                </section>
+                
+                <section class="newsletter">
+                    <div class="section-header">
+                        <h3>Рассылка</h3>
+                        <div class="line"></div>
+                    </div>
+                </section>
+                <section class="tags">
+                    <div class="section-header">
+                        <h3>Теги</h3>
+                        <div class="line"></div>
+                    </div>
+                </section>
+                <section class="topics">
+                    <div class="section-header">
+                        <h3>Темы</h3>
+                        <div class="line"></div>
+                    </div>
+                </section>
+            </aside>
         </main>
+
+
+        <section class="products">
+            <div class="section-header">
+                <h3>Наши изделия</h3>
+                <div class="line"></div>
+            </div>
+            <section class="products-container">
+                <article class="product">
+                    <h4>Подушка на диван</h4></article>
+                <article class="product">
+                    <h4>Кукла зайчик</h4></article>
+                <article class="product">
+                    <h4>Шестиугольная рамка</h4></article>
+            </section>
+        </section>
+        
         <footer>
             <section class="contacts">
-                <p>a</p>
-                <p>b</p>
+                <a href="#0">a</a>
+                <a>b</a>
             </section>
-            <div class="company">copyright</div>
+            <a class="company">copyright</a>
         </footer>
         
        
