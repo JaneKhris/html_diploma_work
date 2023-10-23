@@ -7,7 +7,9 @@
     </head>
     <body>
         <header class="header">
-            <img class="logo" src="">
+            <a href="#0" class="home">
+                <img class="logo" src="svg/noemi-logo.svg">
+            </a>
             <section class="navigation">
                 <a class="navigation__item" href="#0">Главная</a>
                 <a class="navigation__item" href="#0">Посты</a>
@@ -16,6 +18,7 @@
                 <a class="navigation__item" href="#0">Темы</a>
                 <a class="navigation__item" href="#0">Контакты</a>
             </section>
+            
 
             <h1>Блог о творчестве, спорте, и образе жизни</h1>
         </header>
@@ -68,7 +71,7 @@
         <main class="main__content">
             <section class="articles">
                 <article class="articles__item">
-                    <img class="article_img" src="images/last-post1.jpg" alt="last-post1">
+                    <img class="article__img" src="images/last-post1.jpg" alt="last-post1">
                     <div class="article__content">
                         <section class="tags">
                             <a class="tag">Travel</a>
@@ -81,7 +84,7 @@
                     </div>                   
                 </article>
                 <article class="articles__item">
-                    <img class="article_img" src="images/last-post2.jpg" alt="last-post2">
+                    <img class="article__img" src="images/last-post2.jpg" alt="last-post2">
                     <div class="article__content">
                         <section class="tags">
                             <a class="tag">Health</a>
@@ -94,7 +97,7 @@
                     </div>                   
                 </article>
                 <article class="articles__item">
-                    <img class="article_img" src="images/last-post3.jpg" alt="last-post3">
+                    <img class="article__img" src="images/last-post3.jpg" alt="last-post3">
                     <div class="article__content">
                         <section class="tags">
                             <a class="tag">Music</a>
@@ -107,7 +110,7 @@
                     </div>                   
                 </article>
                 <article class="articles__item">
-                    <img class="article_img" src="images/last-post4.jpg" alt="last-post4">
+                    <img class="article__img" src="images/last-post4.jpg" alt="last-post4">
                     <div class="article__content">
                         <section class="tags">
                             <a class="tag">Lifestyle</a>
@@ -120,7 +123,7 @@
                     </div>                   
                 </article>
                 <article class="articles__item">
-                    <img class="article_img" src="images/last-post5.jpg" alt="last-post5">
+                    <img class="article__img" src="images/last-post5.jpg" alt="last-post5">
                     <div class="article__content">
                         <section class="tags">
                             <a class="tag">Lifestyle</a>
@@ -140,31 +143,92 @@
                         <h3>Новые посты</h3>
                         <div class="line"></div>
                     </div>
-                    <div class="new-posts__item">Йога для домашних</div>
-                    <div class="new-posts__item">Как мы превратили</div>
-                    <div class="new-posts__item">Кулинарный подход к науке</div>
-                    <div class="new-posts__item">Лучшие прически для распущенных волос</div>
+                    <article class="new-posts__item">
+                        <img class="new-posts__img" src="images/2.jpg" alt="2">
+                        <div class="new-posts__content">
+                            <p>14 июня 2019</p>
+                            <a class="new-posts__title" href="#0">10 мест, ради которых стоит проснуться</a>
+                        </div>                   
+                    </article>
+                    <article class="new-posts__item">
+                        <img class="new-posts__img" src="images/151.jpg" alt="151">
+                        <div class="new-posts__content">
+                            <p>14 июня 2019</p>
+                            <a class="new-posts__title" href="#0">Йога для домашних</a>
+                        </div>                   
+                    </article>
+                    <article class="new-posts__item">
+                        <img class="new-posts__img" src="images/45.jpg" alt="45">
+                        <div class="new-posts__content">
+                            <p>14 июня 2019</p>
+                            <a class="new-posts__title" href="#0">Как мы превратили классное место в балкон</a>
+                        </div>                   
+                    </article>
+                    <article class="new-posts__item">
+                        <img class="new-posts__img" src="images/501.jpg" alt="501">
+                        <div class="new-posts__content">
+                            <p>14 июня 2019</p>
+                            <a class="new-posts__title" href="#0">Кулинарный подход к науке</a>
+                        </div>                   
+                    </article>
+                    <article class="new-posts__item">
+                        <img class="new-posts__img" src="images/7.jpg" alt="7">
+                        <div class="new-posts__content">
+                            <p>14 июня 2019</p>
+                            <a class="new-posts__title" href="#0">Лучшие прически для распущенных волос</a>
+                        </div>                   
+                    </article>
                 </section>
                 <section class="search">
-                    Поиск   
+                    <input class="search__input" type="search" placeholder="Найти...">
+                    <button type="submit" class="button-search"></button>
+      
                 </section>
-                
                 <section class="newsletter">
                     <div class="section-header">
                         <h3>Рассылка</h3>
                         <div class="line"></div>
+                        <form action="">
+                            <input type="text" placeholder="Ваш email-адрес">
+                            <button>Подписаться</button>
+                        </form>
                     </div>
                 </section>
-                <section class="tags">
+                <section class="tags-aside">
                     <div class="section-header">
                         <h3>Теги</h3>
                         <div class="line"></div>
                     </div>
+                    <div class="tags-aside__item">Fashion</div>
+                    <div class="tags-aside__item">Music</div>
+                    <div class="tags-aside__item">Lifestyle</div>
+                    <div class="tags-aside__item">Interior</div>
+                    <div class="tags-aside__item">Travel</div>
+                    <div class="tags-aside__item">Food</div>
+                    <div class="tags-aside__item">Health</div>
                 </section>
                 <section class="topics">
                     <div class="section-header">
                         <h3>Темы</h3>
                         <div class="line"></div>
+                    </div>
+                    <div class="topics__item">
+                        Красота <span class="count">12</span>
+                    </div>
+                    <div class="topics__item">
+                        Здоровье <span class="count">14</span>
+                    </div>
+                    <div class="topics__item">
+                        Образ жизни <span class="count">145</span>
+                    </div>
+                    <div class="topics__item">
+                        Музыка <span class="count">28</span>
+                    </div>
+                    <div class="topics__item">
+                        Спорт <span class="count">62</span>
+                    </div>
+                    <div class="topics__item">
+                        Йога <span class="count">8</span>
                     </div>
                 </section>
             </aside>
@@ -176,14 +240,52 @@
                 <h3>Наши изделия</h3>
                 <div class="line"></div>
             </div>
-            <section class="products-container">
-                <article class="product">
-                    <h4>Подушка на диван</h4></article>
-                <article class="product">
-                    <h4>Кукла зайчик</h4></article>
-                <article class="product">
-                    <h4>Шестиугольная рамка</h4></article>
-            </section>
+            <article class="products__item">
+                <img class="products__item__img" src="images/shop-item-desk1.jpg" alt="shop-item-desk1">
+                <div class="products__item__frame"><h4>Подушка на диван</h4>
+                    <p class="product_description">Набор из двух подушек с модными принтами. Видео о создании
+                        <a href="#0">здесь</a>.
+                    </p>
+                    <div class="in-shop">
+                        <div>
+                            <div class="old-price">1000 Р</div>
+                            <div class="price">800 Р</div>
+                        </div>  
+                        <button>В магазин</button>
+                    </div>
+                </div>
+            </article>
+            <article class="products__item">
+                <img class="products__item__img" src="images/shop-item-desk2.jpg" alt="shop-item-desk1">
+                <div class="products__item__frame"><h4>Кукла "Зайчик"</h4>
+                    <p class="product_description">Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена
+                        <a href="#0">весенняя серия постов</a>
+                        в блоге и несколько подкастов.
+                    </p>
+                    <div class="in-shop">
+                        <div>
+                            <div class="old-price"> </div>
+                            <div class="price">800 Р</div>
+                        </div>  
+                        <button>В магазин</button>
+                    </div>
+                </div>
+            </article>
+            <article class="products__item">
+                <img class="products__item__img" src="images/shop-item-desk3.jpg" alt="shop-item-desk1">
+                <div class="products__item__frame"><h4>Шестиуголная рамка</h4>
+                    <p class="product_description">Необычная рамка для украшения дома из видео
+                        <a href="#0">"Как сделать рамку из подручных средств за 30 минут"</a>.
+                    </p>
+                    <div class="in-shop">
+                        <div>
+                            <div class="old-price">800 Р</div>
+                            <div class="price">800 Р</div>
+                        </div>  
+                        <button>В магазин</button>
+                    </div>
+                </div>
+            </article>
         </section>
         
         <footer>
